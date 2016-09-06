@@ -50,14 +50,14 @@
     "deep-extend": "^0.4.1",
     "file-exists": "^2.0.0",
     "fs-extra": "^0.30.0",
-    "key-path-helpers": "McPo/key-path-helpers#splitKeyPath-fix",
-    "babel-cli": "6.14.0",
-    "babel-preset-es2015": "6.14.0"
+    "key-path-helpers": "McPo/key-path-helpers#splitKeyPath-fix"
   },
   "devDependencies": {
     "chai": "^3.5.0",
     "electron-mocha": "^2.3.0",
     "electron-prebuilt": "^1.2.6",
-    "mocha": "^2.5.3"
+    "mocha": "^2.5.3",
+    "babel-cli": "6.14.0",
+    "babel-preset-es2015": "6.14.0"
   }
 }
