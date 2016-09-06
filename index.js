@@ -14,4 +14,4 @@
  * @license ISC
  */
 
-module.exports = require('./lib/settings');
+module.exports = require('./dist/settings');
