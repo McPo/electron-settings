@@ -6,7 +6,7 @@
   "scripts": {
     "build-lib": "babel lib --presets babel-preset-es2015 --out-dir dist",
     "test": "electron-mocha test && electron-mocha --renderer test",
-    "postinstall": "postinstall-build lib 'npm run build-lib'"
+    "postinstall": "postinstall-build dist 'npm run build-lib'"
   },
   "keywords": [
     "electron",
