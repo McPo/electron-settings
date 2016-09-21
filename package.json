@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build-lib": "babel lib --out-dir dist",
-    "test": "electron-mocha test && electron-mocha --renderer test",
-    "postinstall": "test ! -d dist && postinstall-build dist 'npm run build-lib' ||:"
+    "test": "electron-mocha test && electron-mocha --renderer test"
   },
   "keywords": [
     "electron",
@@ -51,8 +50,7 @@
 		"encryptjs": "^1.1.6",
     "file-exists": "^2.0.0",
     "fs-extra": "^0.30.0",
-    "key-path-helpers": "McPo/key-path-helpers#splitKeyPath-fix",
-    "postinstall-build": "0.2.1"
+    "key-path-helpers": "McPo/key-path-helpers#splitKeyPath-fix"
   },
   "devDependencies": {
     "chai": "^3.5.0",
